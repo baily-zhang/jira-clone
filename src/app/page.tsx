@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input";
+import { Select } from "react-day-picker";
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
       <Button variant="ghost">Ghost</Button>
       <Button variant="muted">Muted</Button>
       <Button variant="teritrary" >Teritrary</Button>
+      <Input />
+      <Select />
     </div >
 
   );
